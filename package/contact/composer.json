@@ -1,0 +1,26 @@
+{
+    "name": "bbis/contact",
+    "description": "This will send email to admin and save contact query in database",
+    "type": "library",
+    "license": "MIT",
+    "authors": [
+        {
+            "name": "tauseefmd13",
+            "email": "tauseefmd13@gmail.com"
+        }
+    ],
+    "minimum-stability": "dev",
+    "require": {},
+    "autoload": {
+        "psr-4": {
+            "Bbis\\Contact\\": "src/"
+        }
+    },
+    "extra": {
+        "laravel": {
+            "providers": [
+                "Bbis\\Contact\\ContactServiceProvider"
+            ]
+        }
+    }
+}
